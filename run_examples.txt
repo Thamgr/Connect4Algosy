@@ -1,0 +1,159 @@
+# === All pairwise games (X vs O, time=1.0s per move, saved to ./out/games/) ===
+
+# game: random (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x random --o random --time 1.0 --out ./out/games/random_vs_random.gif
+
+# game: random (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x random --o bf --time 1.0 --out ./out/games/random_vs_bf.gif
+
+# game: random (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x random --o bf_memo --time 1.0 --out ./out/games/random_vs_bf_memo.gif
+
+# game: random (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x random --o bf_ab --time 1.0 --out ./out/games/random_vs_bf_ab.gif
+
+# game: random (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x random --o bf_eval --time 1.0 --out ./out/games/random_vs_bf_eval.gif
+
+# game: random (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x random --o bf_id --time 1.0 --out ./out/games/random_vs_bf_id.gif
+
+# game: random (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x random --o mcts --time 1.0 --out ./out/games/random_vs_mcts.gif
+
+# game: bf (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x bf --o random --time 1.0 --out ./out/games/bf_vs_random.gif
+
+# game: bf (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x bf --o bf --time 1.0 --out ./out/games/bf_vs_bf.gif
+
+# game: bf (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x bf --o bf_memo --time 1.0 --out ./out/games/bf_vs_bf_memo.gif
+
+# game: bf (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x bf --o bf_ab --time 1.0 --out ./out/games/bf_vs_bf_ab.gif
+
+# game: bf (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x bf --o bf_eval --time 1.0 --out ./out/games/bf_vs_bf_eval.gif
+
+# game: bf (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x bf --o bf_id --time 1.0 --out ./out/games/bf_vs_bf_id.gif
+
+# game: bf (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x bf --o mcts --time 1.0 --out ./out/games/bf_vs_mcts.gif
+
+# game: bf_memo (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o random --time 1.0 --out ./out/games/bf_memo_vs_random.gif
+
+# game: bf_memo (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o bf --time 1.0 --out ./out/games/bf_memo_vs_bf.gif
+
+# game: bf_memo (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o bf_memo --time 1.0 --out ./out/games/bf_memo_vs_bf_memo.gif
+
+# game: bf_memo (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o bf_ab --time 1.0 --out ./out/games/bf_memo_vs_bf_ab.gif
+
+# game: bf_memo (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o bf_eval --time 1.0 --out ./out/games/bf_memo_vs_bf_eval.gif
+
+# game: bf_memo (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o bf_id --time 1.0 --out ./out/games/bf_memo_vs_bf_id.gif
+
+# game: bf_memo (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x bf_memo --o mcts --time 1.0 --out ./out/games/bf_memo_vs_mcts.gif
+
+# game: bf_ab (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o random --time 1.0 --out ./out/games/bf_ab_vs_random.gif
+
+# game: bf_ab (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o bf --time 1.0 --out ./out/games/bf_ab_vs_bf.gif
+
+# game: bf_ab (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o bf_memo --time 1.0 --out ./out/games/bf_ab_vs_bf_memo.gif
+
+# game: bf_ab (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o bf_ab --time 1.0 --out ./out/games/bf_ab_vs_bf_ab.gif
+
+# game: bf_ab (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o bf_eval --time 1.0 --out ./out/games/bf_ab_vs_bf_eval.gif
+
+# game: bf_ab (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o bf_id --time 1.0 --out ./out/games/bf_ab_vs_bf_id.gif
+
+# game: bf_ab (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x bf_ab --o mcts --time 1.0 --out ./out/games/bf_ab_vs_mcts.gif
+
+# game: bf_eval (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o random --time 1.0 --out ./out/games/bf_eval_vs_random.gif
+
+# game: bf_eval (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o bf --time 1.0 --out ./out/games/bf_eval_vs_bf.gif
+
+# game: bf_eval (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o bf_memo --time 1.0 --out ./out/games/bf_eval_vs_bf_memo.gif
+
+# game: bf_eval (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o bf_ab --time 1.0 --out ./out/games/bf_eval_vs_bf_ab.gif
+
+# game: bf_eval (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o bf_eval --time 1.0 --out ./out/games/bf_eval_vs_bf_eval.gif
+
+# game: bf_eval (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o bf_id --time 1.0 --out ./out/games/bf_eval_vs_bf_id.gif
+
+# game: bf_eval (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x bf_eval --o mcts --time 1.0 --out ./out/games/bf_eval_vs_mcts.gif
+
+# game: bf_id (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o random --time 1.0 --out ./out/games/bf_id_vs_random.gif
+
+# game: bf_id (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o bf --time 1.0 --out ./out/games/bf_id_vs_bf.gif
+
+# game: bf_id (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o bf_memo --time 1.0 --out ./out/games/bf_id_vs_bf_memo.gif
+
+# game: bf_id (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o bf_ab --time 1.0 --out ./out/games/bf_id_vs_bf_ab.gif
+
+# game: bf_id (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o bf_eval --time 1.0 --out ./out/games/bf_id_vs_bf_eval.gif
+
+# game: bf_id (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o bf_id --time 1.0 --out ./out/games/bf_id_vs_bf_id.gif
+
+# game: bf_id (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x bf_id --o mcts --time 1.0 --out ./out/games/bf_id_vs_mcts.gif
+
+# game: mcts (X) vs random (O)
+.venv/bin/python scripts/run_game.py --x mcts --o random --time 1.0 --out ./out/games/mcts_vs_random.gif
+
+# game: mcts (X) vs bf (O)
+.venv/bin/python scripts/run_game.py --x mcts --o bf --time 1.0 --out ./out/games/mcts_vs_bf.gif
+
+# game: mcts (X) vs bf_memo (O)
+.venv/bin/python scripts/run_game.py --x mcts --o bf_memo --time 1.0 --out ./out/games/mcts_vs_bf_memo.gif
+
+# game: mcts (X) vs bf_ab (O)
+.venv/bin/python scripts/run_game.py --x mcts --o bf_ab --time 1.0 --out ./out/games/mcts_vs_bf_ab.gif
+
+# game: mcts (X) vs bf_eval (O)
+.venv/bin/python scripts/run_game.py --x mcts --o bf_eval --time 1.0 --out ./out/games/mcts_vs_bf_eval.gif
+
+# game: mcts (X) vs bf_id (O)
+.venv/bin/python scripts/run_game.py --x mcts --o bf_id --time 1.0 --out ./out/games/mcts_vs_bf_id.gif
+
+# game: mcts (X) vs mcts (O)
+.venv/bin/python scripts/run_game.py --x mcts --o mcts --time 1.0 --out ./out/games/mcts_vs_mcts.gif
+
+# === Tournaments at different per-move time budgets (each run saved to ./out/tournaments/<datetime>/) ===
+
+# tournament: time_limit=0.01s per move, 2 games per ordered pair
+.venv/bin/python scripts/run_tournament.py --games 2 --time 0.01
+
+# tournament: time_limit=0.1s per move, 2 games per ordered pair
+.venv/bin/python scripts/run_tournament.py --games 2 --time 0.1
+
+# tournament: time_limit=1.0s per move, 2 games per ordered pair
+.venv/bin/python scripts/run_tournament.py --games 2 --time 1.0
